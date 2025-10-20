@@ -294,8 +294,7 @@ export default function App() {
               <img src="https://pliki.meczyki.pl/big700/597/68f54d3f5ccc4.jpg" className="w-100 h-100 object-fit-cover" alt="main-news" />
               <div className="position-absolute top-0 start-0 w-100 h-100"></div>
               <div className="position-absolute bottom-0 p-3 w-100">
-                <div className="d-flex justify-content-between small text-light mb-2 right-news-stats">
-                  <span>79:37</span>
+                <div className="d-flex justify-content-between small text-light mb-2 text-white">
                   <span><i className="bi bi-chat-left-text me-1"></i> 64</span>
                 </div>
                 <h4 className="m-0">Triumf Realu przed El Clasico! Rywal wyleciał z czerwoną kartką po minucie</h4>
@@ -307,8 +306,7 @@ export default function App() {
                   <img src="https://pliki.meczyki.pl/big/597/68f54ac79ab67.JPG" className="w-100 h-100 object-fit-cover" alt="ferran" />
                   <div className="position-absolute top-0 start-0 w-100 h-100"></div>
                   <div className="position-absolute bottom-0 p-2 w-100">
-                    <div className="d-flex justify-content-between small text-light mb-1 right-news-stats">
-                      <span>85:53</span>
+                    <div className="d-flex justify-content-between small text-light mb-1 text-white">
                       <span><i className="bi bi-chat-left-text me-1"></i> 4</span>
                     </div>
                     <div className="small">Jest decyzja ws. Ferrana Torresa. Barcelona nie ma wątpliwości</div>
@@ -320,8 +318,7 @@ export default function App() {
                   <img src="https://pliki.meczyki.pl/big/597/68f54c5717f48.jpg" className="w-100 h-100 object-fit-cover" alt="leao" />
                   <div className="position-absolute top-0 start-0 w-100 h-100"></div>
                   <div className="position-absolute bottom-0 p-2 w-100">
-                    <div className="d-flex justify-content-between small text-light mb-1 right-news-stats">
-                      <span >90:00</span>
+                    <div className="d-flex justify-content-between small text-light mb-1 text-white">
                       <span><i className="bi bi-chat-left-text me-1"></i> 5</span>
                     </div>
                     <div className="small">Milan na szczycie Serie A! Leao bohaterem San Siro</div>

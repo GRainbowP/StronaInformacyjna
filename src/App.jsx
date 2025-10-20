@@ -183,7 +183,6 @@ export default function App() {
                   {(expanded[card.key] ? card.items : card.items.slice(0, 4)).map((item, id) => (
                     <li key={id} className="widget-row">
                       {item}
-                      {card.key === "skroty" && <span className="score small text-muted">1:2</span>}
                     </li>
                   ))}
                 </ul>

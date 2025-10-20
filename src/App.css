@@ -175,13 +175,13 @@
   color: #fff !important;
 }
 
-.meczyki-navbar {
+.navbar-working {
   background: #212529;
   padding: 10px 0;
   border-bottom: 1px solid #2e3439;
 }
 
-.meczyki-menu {
+.navbar-working-menu {
   list-style: none;
   display: flex;
   align-items: center;
@@ -192,14 +192,14 @@
   letter-spacing: 0.3px;
 }
 
-.meczyki-menu li {
+.navbar-working-menu li {
   color: #fff;
   cursor: pointer;
   position: relative;
   font-size: 15px;
 }
 
-.meczyki-menu li:hover {
+.navbar-working-menu li:hover {
   color: #19c2a5;
 }
 
@@ -304,6 +304,15 @@
 .custom-tab.active {
   background: #19c2a5;
   color: #fff;
+}
+
+.custom-tab.popularne {
+  color: #fff;
+}
+
+.custom-tab.popularne:hover {
+  color: #fff !important;
+  border: 1px solid #19c2a5;
 }
 
 .custom-tab:not(.active):hover {

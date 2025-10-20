@@ -97,37 +97,37 @@ export default function App() {
 
 
   const competitions = [
-  { label: "Eliminacje MŚ - Europa", img: "https://pliki.meczyki.pl/live-score/soccer/competition/224/original.png" },
-  { label: "Liga Mistrzów", img: "https://pliki.meczyki.pl/live-score/soccer/competition/10/original-dark.png" },
-  { label: "Liga Europy", img: "https://pliki.meczyki.pl/live-score/soccer/competition/18/original-dark.png" },
-  { label: "Liga Konferencji", img: "https://pliki.meczyki.pl/live-score/soccer/competition/1676/original-dark.png" },
-  { label: "Ekstraklasa", img: "https://pliki.meczyki.pl/live-score/soccer/competition/119/original.png" },
-  { label: "Premier League", img: "https://pliki.meczyki.pl/live-score/soccer/competition/8/original-dark.png" },
-  { label: "La Liga", img: "https://pliki.meczyki.pl/live-score/soccer/competition/7/original.png" },
-  { label: "Bundesliga", img: "https://pliki.meczyki.pl/live-score/soccer/competition/9/original.png" },
-  { label: "Serie A", img: "https://pliki.meczyki.pl/live-score/soccer/competition/13/original.png" },
-  { label: "Ligue 1", img: "https://pliki.meczyki.pl/live-score/soccer/competition/16/original-dark.png" }
+  { name: "Eliminacje MŚ - Europa", img: "https://pliki.meczyki.pl/live-score/soccer/competition/224/original.png" },
+  { name: "Liga Mistrzów", img: "https://pliki.meczyki.pl/live-score/soccer/competition/10/original-dark.png" },
+  { name: "Liga Europy", img: "https://pliki.meczyki.pl/live-score/soccer/competition/18/original-dark.png" },
+  { name: "Liga Konferencji", img: "https://pliki.meczyki.pl/live-score/soccer/competition/1676/original-dark.png" },
+  { name: "Ekstraklasa", img: "https://pliki.meczyki.pl/live-score/soccer/competition/119/original.png" },
+  { name: "Premier League", img: "https://pliki.meczyki.pl/live-score/soccer/competition/8/original-dark.png" },
+  { name: "La Liga", img: "https://pliki.meczyki.pl/live-score/soccer/competition/7/original.png" },
+  { name: "Bundesliga", img: "https://pliki.meczyki.pl/live-score/soccer/competition/9/original.png" },
+  { name: "Serie A", img: "https://pliki.meczyki.pl/live-score/soccer/competition/13/original.png" },
+  { name: "Ligue 1", img: "https://pliki.meczyki.pl/live-score/soccer/competition/16/original-dark.png" }
 ];
 
   const countries = [
-    { label: "Anglia", img: "https://pliki.meczyki.pl/live-score/soccer/country/68/original.png" },
-    { label: "Arabia Saudyjska", img: "https://pliki.meczyki.pl/live-score/soccer/country/164/original.png" },
-    { label: "Belgia", img: "https://pliki.meczyki.pl/live-score/soccer/country/27/original.png" },
-    { label: "Chorwacja", img: "https://pliki.meczyki.pl/live-score/soccer/country/56/original.png" },
-    { label: "Cypr", img: "https://pliki.meczyki.pl/live-score/soccer/country/58/original.png" },
-    { label: "Czechy", img: "https://pliki.meczyki.pl/live-score/soccer/country/59/original.png" },
-    { label: "Dania", img: "https://pliki.meczyki.pl/live-score/soccer/country/61/original.png" },
-    { label: "Francja", img: "https://pliki.meczyki.pl/live-score/soccer/country/76/original.png" },
-    { label: "Grecja", img: "https://pliki.meczyki.pl/live-score/soccer/country/82/original.png" },
-    { label: "Hiszpania", img: "https://pliki.meczyki.pl/live-score/soccer/country/176/original.png" },
-    { label: "Holandia", img: "https://pliki.meczyki.pl/live-score/soccer/country/138/original.png" },
-    { label: "Niemcy", img: "https://pliki.meczyki.pl/live-score/soccer/country/80/original.png" },
-    { label: "Polska", img: "https://pliki.meczyki.pl/live-score/soccer/country/155/original.png" }
+    { name: "Anglia", img: "https://pliki.meczyki.pl/live-score/soccer/country/68/original.png" },
+    { name: "Arabia Saudyjska", img: "https://pliki.meczyki.pl/live-score/soccer/country/164/original.png" },
+    { name: "Belgia", img: "https://pliki.meczyki.pl/live-score/soccer/country/27/original.png" },
+    { name: "Chorwacja", img: "https://pliki.meczyki.pl/live-score/soccer/country/56/original.png" },
+    { name: "Cypr", img: "https://pliki.meczyki.pl/live-score/soccer/country/58/original.png" },
+    { name: "Czechy", img: "https://pliki.meczyki.pl/live-score/soccer/country/59/original.png" },
+    { name: "Dania", img: "https://pliki.meczyki.pl/live-score/soccer/country/61/original.png" },
+    { name: "Francja", img: "https://pliki.meczyki.pl/live-score/soccer/country/76/original.png" },
+    { name: "Grecja", img: "https://pliki.meczyki.pl/live-score/soccer/country/82/original.png" },
+    { name: "Hiszpania", img: "https://pliki.meczyki.pl/live-score/soccer/country/176/original.png" },
+    { name: "Holandia", img: "https://pliki.meczyki.pl/live-score/soccer/country/138/original.png" },
+    { name: "Niemcy", img: "https://pliki.meczyki.pl/live-score/soccer/country/80/original.png" },
+    { name: "Polska", img: "https://pliki.meczyki.pl/live-score/soccer/country/155/original.png" }
   ];
 
   return (
     <div className="bg-dark text-light min-vh-100">
-      <header className="meczyki-navbar">
+      <header className="navbar-working">
         <div className="container d-flex align-items-center justify-content-between">
           <div className="d-flex align-items-center gap-3">
             <div className="logo d-flex align-items-center" style={{ cursor: "pointer" }}>
@@ -136,7 +136,6 @@ export default function App() {
                 className="img-logo"
                 width="120"
                 height="40"
-                alt="Meczyki"
               />
             </div>
             <div className="theme-toggle ms-2">
@@ -147,11 +146,11 @@ export default function App() {
             </div>
           </div>
           <nav>
-            <ul className="meczyki-menu">
+            <ul className="navbar-working-menu">
               {topMenu.map((item, id) => (
                 <li key={id}>
                   {item.name}
-                  {item.sub && <i className="bi bi-caret-down-fill ms-1"></i>}
+                  {item.name == "Bukmacherzy" && <i className="bi bi-caret-down-fill ms-1"></i>}
                 </li>
               ))}
             </ul>
@@ -210,10 +209,10 @@ export default function App() {
         <section className="mb-4">
           <h6 className="mb-2">WYNIKI NA ŻYWO</h6>
           <div className="d-flex flex-row flex-wrap gap-2">
-            {liveTiles.map((t) => (
-              <div key={t.id} className="live-tile p-2 text-center">
-                <div className="small text-muted">{t.time}</div>
-                <div className="fw-bold mt-1">{t.title}</div>
+            {liveTiles.map((live) => (
+              <div key={live.id} className="live-tile p-2 text-center">
+                <div className="small text-muted">{live.time}</div>
+                <div className="fw-bold mt-1">{live.title}</div>
               </div>
             ))}
           </div>
@@ -223,10 +222,10 @@ export default function App() {
             <div className="sidebar-card">
               <h5>Popularne</h5>
               <ul className="sidebar-list">
-                {competitions.map(({ label, img }) => (
-                  <li key={label}>
-                    <img className="sidebar-icon" src={img} />
-                    <span>{label}</span>
+                {competitions.map((competition) => (
+                  <li key={competition.name}>
+                    <img className="sidebar-icon" src={competition.img} />
+                    <span>{competition.name}</span>
                     <span className="icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -251,10 +250,10 @@ export default function App() {
             <div className="sidebar-card">
               <h5>Ważne</h5>
               <ul className="sidebar-list">
-                {countries.map(({ label, img }) => (
-                  <li key={label}>
-                    <img className="sidebar-icon" src={img} />
-                    <span>{label}</span>
+                {countries.map((country) => (
+                  <li key={country.name}>
+                    <img className="sidebar-icon" src={country.img} />
+                    <span>{country.name}</span>
                     <span className="icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -285,7 +284,7 @@ export default function App() {
               </h5>
               <div className="custom-tab-group">
                 <button className="custom-tab active">Ważne</button>
-                <button className="custom-tab">Popularne</button>
+                <button className="custom-tab popularne">Popularne</button>
                 <button className="custom-tab">Dziś</button>
                 <button className="custom-tab">Wczoraj</button>
                 <button className="custom-tab">Przedwczoraj</button>
@@ -337,13 +336,13 @@ export default function App() {
               <span>ZOBACZ TAKŻE</span>
             </div>
             <div className="list-group mt-2">
-              {smallNews.map((r) => (
-                <div key={r.id} className="right-news-item d-flex gap-2 p-2 align-items-start">
-                  <img src={r.img} alt={r.title} className="right-news-thumb" />
+              {smallNews.map((news) => (
+                <div key={news.id} className="right-news-item d-flex gap-2 p-2 align-items-start">
+                  <img src={news.img} alt={news.title} className="right-news-thumb" />
                   <div className="flex-grow-1">
-                    <div className="right-news-title">{r.title}</div>
+                    <div className="right-news-title">{news.title}</div>
                     <div className="d-flex justify-content-between text-muted small mt-1 right-news-stats">
-                      <span>{r.date}</span>
+                      <span>{news.date}</span>
                       <span><i className="bi bi-chat-left-text"></i> {Math.floor(Math.random() * 25)}</span>
                     </div>
                   </div>

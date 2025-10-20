@@ -211,7 +211,7 @@ export default function App() {
           <div className="d-flex flex-row flex-wrap gap-2">
             {liveTiles.map((live) => (
               <div key={live.id} className="live-tile p-2 text-center">
-                <div className="small text-muted">{live.time}</div>
+                <div className="small right-news-stats">{live.time}</div>
                 <div className="fw-bold mt-1">{live.title}</div>
               </div>
             ))}
